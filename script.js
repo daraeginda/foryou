@@ -69,7 +69,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           })
                         })
                       } else if (result.isDenied) {
-                        Swal.fire('yahhh , emang ga kangen sama pacar sendiri', '', 'error').then(function () {
+                        Swal.fire('yahhh , emang ga kangen sama aku', '', 'error').then(function () {
                           Swal.fire('Yaudah deh okee sayangg :((')
                         })
                       }
