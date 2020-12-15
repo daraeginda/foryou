@@ -6,12 +6,12 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Dara Eginda";
+  sender = "Dara";
 }
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Pacarku", "Aku ada pertanyaan nih buat kamu yangg", "question").then(function () {
+  Swal.fire("Hai Sayang", "Aku ada pertanyaan nih buat kamu yangg", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
 
